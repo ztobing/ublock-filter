@@ -1,0 +1,28 @@
+! Title: ztobing's uBlock Filter
+! Description: My personal uBlock Origin filter
+! Version: 1.0.0
+! Expires: 4 weeks
+! Homepage: https://github.com/ztobing/ublock-filter
+! License: MIT
+
+
+! https://www.youtube.com
+! Reduce UI clutter - Used in tandem with Unhook
+www.youtube.com##ytd-notification-topbar-button-renderer.ytd-masthead.style-scope
+www.youtube.com###voice-search-button
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(6)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+
+! https://www.reddit.com
+! Remove Home Feed
+www.reddit.com##.justify-stretch.min-h-\[calc\(100dvh_-_var\(--shreddit-header-height\)\)\].mx-auto.m\:px-lg.xs\:px-md.w-full.order-2.flex-col.flex.box-border.m\:col-start-2.subgrid-container:matches-path(/^\/$/)
+
+! https://www.tokopedia.com
+! Reduce UI clutter
+www.tokopedia.com##.e1t9gu7z2.css-1e3amw5
+
+! https://bcaoffice365-my.sharepoint.com.mcas.ms
+! Hide SharePoint tenant logo
+bcaoffice365-my.sharepoint.com.mcas.ms###O365_MainLink_TenantLogo_container
