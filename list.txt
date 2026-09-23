@@ -22,6 +22,8 @@ www.reddit.com##.justify-stretch.min-h-\[calc\(100dvh_-_var\(--shreddit-header-h
 ! https://www.tokopedia.com
 ! Reduce UI clutter
 www.tokopedia.com##.e1t9gu7z2.css-1e3amw5
+www.tokopedia.com##.relative.css-stopwq
+www.tokopedia.com##.css-19uzd07
 
 ! https://bcaoffice365-my.sharepoint.com.mcas.ms
 ! Hide SharePoint tenant logo
